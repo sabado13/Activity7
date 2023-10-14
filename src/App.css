@@ -1,0 +1,82 @@
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-image: url('https://media.giphy.com/media/P9cT2ZJRJUWEU/giphy.gif');
+  background-size: cover;
+  
+}
+
+h1 {
+  color: #333;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #eb4808;
+  border-radius: 4px;
+}
+
+.crud-form {
+  
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.crud-form h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0ff022;
+}
+
+.fruit-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fruit-item {
+  border: 1px solid #e4e002ec;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fruit-item strong {
+  color: #333;
+}
+
+.fruit-item button {
+  color: #22241c;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.fruit-item button:hover {
+  background-color: #d32f2f;
+}
